@@ -26,8 +26,7 @@ main {
 }
 
 img {
-  min-width: 30%;
-  max-width: 390px;
+  max-width: 300px;
   height: auto;
 }
 
