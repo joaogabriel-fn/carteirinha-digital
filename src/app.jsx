@@ -12,6 +12,8 @@ const App = () => (
         </div>
       </div>
 
+      <div style={{ height: 32 }} />
+
       <div className="container-info">
         <div className="wrapper-info">
           <h2 className="label">Nome</h2>
@@ -21,12 +23,14 @@ const App = () => (
         </div>
         <div className="wrapper-info">
           <h2 className="label">Curso</h2>
-          <p>
+
+          <p className="course-name">
             <strong>
               SUPERIOR DE TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
             </strong>
           </p>
         </div>
+
         <div className="wrapper-footer">
           <div className="wrapper-info">
             <h2 className="label">RGM</h2>
